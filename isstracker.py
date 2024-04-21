@@ -50,7 +50,7 @@ def main():
 
     # Refresh data button at the bottom
     if st.button("Refresh Data"):
-        st.experimental_rerun()
+        st.rerun()
 
 if __name__ == "__main__":
     main()
